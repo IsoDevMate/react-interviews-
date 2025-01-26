@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
   <h1>🚀 React Interview Mastery: 330 Days of Coding Challenges</h1>
 
@@ -126,7 +125,7 @@ If this resource helps you:
 
 This project is open-source, licensed under MIT License.
 
----
+
 
 <div align="center">
   <small>Crafted with ❤️ by Your Name | Powered by Barack.devTeam.REPL </small>
