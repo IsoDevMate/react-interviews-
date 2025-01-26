@@ -128,6 +128,6 @@ This project is open-source, licensed under MIT License.
 
 
 <div align="center">
-  <small>Crafted with ❤️ by Your Name | Powered by Barack.devTeam.REPL </small>
+  <small>Crafted with ❤️ by  Barack Ouma  | Powered by Barack.devTeam.REPL </small>
 </div>
 ```
