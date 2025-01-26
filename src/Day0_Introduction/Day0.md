@@ -12,9 +12,6 @@ This course is designed to help you master React and TypeScript through a series
 
 React and TypeScript are becoming increasingly important in the industry, and this course will help you stay ahead.
 
----
-
-````markdown
 <div align="center">
   <h1>🚀 React Interview Mastery: 330 Days of Coding Challenges</h1>
 
@@ -81,8 +78,6 @@ cd react-interview-prep
 
 # Install dependencies
 npm install
-```
-````
 
 ## 📈 Progress Tracking
 
