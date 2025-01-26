@@ -1,5 +1,6 @@
 import CollaborativeTaskBoard from './components/collaborationboardtimer';
 import CountHistory from './components/counthistory';
+import DrawingTool from './components/drawingTool';
 import TaskTimer from './components/tasktimer';
 
 const App = () => {
@@ -9,8 +10,10 @@ const App = () => {
       <CountHistory />
       <h2>Dynamic task Timer</h2>
       <TaskTimer />
-      <h2>Collaboratve BoardManagement</h2>
+      <h2>CollaboratveTaskSorting BoardManagement</h2>
       <CollaborativeTaskBoard />
+      <h2>DrawingToolCanvas</h2>
+      <DrawingTool width={300} height={300} />
     </div>
   );
 };
