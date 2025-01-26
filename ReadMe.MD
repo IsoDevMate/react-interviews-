@@ -66,7 +66,6 @@ cd react-interview-prep
 # Install dependencies
 npm install
 ```
-````
 
 ## 📈 Progress Tracking
 
