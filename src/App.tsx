@@ -1,3 +1,4 @@
+import CartShopping from './components/cartShopping';
 import CollaborativeTaskBoard from './components/collaborationboardtimer';
 import CountHistory from './components/counthistory';
 import DrawingTool from './components/drawingTool';
@@ -12,6 +13,8 @@ const App = () => {
       <TaskTimer />
       <h2>CollaboratveTaskSorting BoardManagement</h2>
       <CollaborativeTaskBoard />
+      <h2>CartShopping</h2>
+      <CartShopping />
       <h2>DrawingToolCanvas</h2>
       <DrawingTool width={300} height={300} />
     </div>

@@ -345,3 +345,6 @@ export default DrawingTool;
 //     const y = Math.round((y_rel * event.target.height) / rect.height);
 //     return [x, y];
 // };
+
+//https://www.w3schools.com/tags/canvas_globalcompositeoperation.asp
+//https://github.com/mikkuayu/React-Projects

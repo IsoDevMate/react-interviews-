@@ -11,6 +11,8 @@
     "watch:tailwind": "tailwindcss -i ./src/styles/input.css   --watch"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "lucide-react": "^0.474.0",
     "react": "^19.0.0",
     "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^19.0.0"

@@ -12,7 +12,6 @@ This course is designed to help you master React and TypeScript through a series
 
 React and TypeScript are becoming increasingly important in the industry, and this course will help you stay ahead.
 
-
 ## Challenge Details
 
 🕒 Time Limit: 10-15 minutes
