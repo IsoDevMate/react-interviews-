@@ -2,6 +2,7 @@ import CartShopping from './components/cartShopping';
 import CollaborativeTaskBoard from './components/collaborationboardtimer';
 import CountHistory from './components/counthistory';
 import DrawingTool from './components/drawingTool';
+import InfiniteGallery from './components/Infinite-scrollimages';
 import TaskTimer from './components/tasktimer';
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
       <CartShopping />
       <h2>DrawingToolCanvas</h2>
       <DrawingTool width={300} height={300} />
+      <h2>INfinite Gallery </h2>
+      <InfiniteGallery />
     </div>
   );
 };

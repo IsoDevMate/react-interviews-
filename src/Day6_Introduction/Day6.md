@@ -43,7 +43,6 @@ loadMoreImages: Fetch next page
 handleImageLoad: Track image loading
 handleError: Error handling
 
-
 ## Build UI components:
 
 Image grid layout

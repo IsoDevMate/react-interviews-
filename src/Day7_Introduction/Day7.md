@@ -12,8 +12,17 @@ This course is designed to help you master React and TypeScript through a series
 
 React and TypeScript are becoming increasingly important in the industry, and this course will help you stay ahead.
 
+## TypeScript generics
+Challenge: Type-Safe Custom Hook for Form Validation
+Objective: Create a reusable, type-safe form validation hook
+Skills Tested:
+
+
+Custom hooks
+Type inference
+Validation logic
 ---
 
-í¼Ÿ Awesome job! Youâ€™ve successfully completed your Day 7, and you're well on your way to becoming a great developer. Keep up the momentum!
+ï¿½ï¿½ï¿½ Awesome job! Youâ€™ve successfully completed your Day 7, and you're well on your way to becoming a great developer. Keep up the momentum!
 
 [<< Previous Day](./../Day6_Introduction/Day6.md) | [Next Day >>](./../Day8_Introduction/Day8.md)
