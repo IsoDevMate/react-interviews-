@@ -21,7 +21,10 @@ Skills Tested:
 Custom hooks
 Type inference
 Validation logic
+//The Object.keys() static method returns an array of a given object's own enumerable string-keyed property names
+
 ---
+
 
 ��� Awesome job! You’ve successfully completed your Day 7, and you're well on your way to becoming a great developer. Keep up the momentum!
 
