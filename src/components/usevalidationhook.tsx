@@ -7,7 +7,11 @@ type FormErrors<T> = {
   [K in keyof T]?: string; //mapped type to create an object to iterate over keys
 };
 
-export default function useFormValidation<T extends Record<string, any>>(
+type FormValues<T> = {
+  [K in keyof T]: T[K];
+};
+
+export default function useFormValidation<T extends FormValues<T>>(
   initialState: T,
   validationRules: ValidationRules<T>,
 ) {
@@ -19,14 +23,6 @@ export default function useFormValidation<T extends Record<string, any>>(
     //nitialization
     const newErrors: FormErrors<T> = {};
 
-
-    // Object.keys(validationRules).forEach((key) => {
-    //   const value = values[key as keyof T];
-    //   const isValid = validationRules[key as keyof T](value);
-    //   if (!isValid) {
-    //     newErrors[key as keyof T] = `${key} is invalid`;
-    //   }
-    // });
 
     //iteration over validation rules
     (Object.keys(validationRules) as Array<keyof T>).forEach((key) => {
@@ -48,12 +44,11 @@ export default function useFormValidation<T extends Record<string, any>>(
   }, [values, validationRules]);
 
   //handle input change function
-  const handleInputChange=(field: keyof T) => (e: React.ChangeEvent<HTMLInputElement>) => {
-    setValues({
-      ...values,
-      [field]: e.target.value,
-    });
-  };
+ const handleInputChange = useCallback((key: keyof T, value: T[keyof T]) => {
+   setValues((prev) => ({ ...prev, [key]: value }));
+   setError((prev) => ({ ...prev, [key]: undefined })); // Clear error on change
+ }, []);
+
 
   return {
     values,
